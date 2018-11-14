@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Dnc.Api.Throttle</id>
+    <version>1.0.1</version>
+    <authors>kulend@qq.com</authors>
+    <owners>kulend@qq.com</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>https://github.com/kulend/Dnc.Api.Throttle/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/kulend/Dnc.Api.Throttle</projectUrl>
+    <description>适用于.Net Core WebApi接口限流框架</description>
+    <repository type="git" url="https://github.com/kulend/Dnc.Api.Throttle" />
+    <dependencies>
+      <group targetFramework=".NETCoreApp2.1">
+        <dependency id="Microsoft.AspNetCore.Mvc.Abstractions" version="2.1.1" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.AspNetCore.Mvc.RazorPages" version="2.1.1" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Options.ConfigurationExtensions" version="2.1.1" exclude="Build,Analyzers" />
+        <dependency id="StackExchange.Redis.StrongName" version="1.2.7-alpha-00002" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="F:\mywork\study\WebApiCore\Dnc.Api.Throttle\bin\Debug\netcoreapp2.1\Dnc.Api.Throttle.dll" target="lib\netcoreapp2.1\Dnc.Api.Throttle.dll" />
+  </files>
+</package>

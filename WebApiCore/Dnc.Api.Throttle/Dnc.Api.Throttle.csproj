@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <RootNamespace>Dnc.Api.Throttle</RootNamespace>
+    <AssemblyName>Dnc.Api.Throttle</AssemblyName>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageProjectUrl>https://github.com/kulend/Dnc.Api.Throttle</PackageProjectUrl>
+    <PackageLicenseUrl>https://github.com/kulend/Dnc.Api.Throttle/blob/master/LICENSE</PackageLicenseUrl>
+    <RepositoryUrl>https://github.com/kulend/Dnc.Api.Throttle</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <Authors>kulend@qq.com</Authors>
+    <Company>www.kulend.com</Company>
+    <Description>适用于.Net Core WebApi接口限流框架</Description>
+    <Version>1.0.1</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Abstractions" Version="2.1.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.RazorPages" Version="2.1.1" />
+    <PackageReference Include="Microsoft.Extensions.Options.ConfigurationExtensions" Version="2.1.1" />
+    <PackageReference Include="StackExchange.Redis.StrongName" Version="1.2.7-alpha-00002" />
+  </ItemGroup>
+
+</Project>

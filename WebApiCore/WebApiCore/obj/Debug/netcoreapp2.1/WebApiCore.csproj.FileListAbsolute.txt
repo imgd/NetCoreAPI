@@ -1,0 +1,14 @@
+F:\mywork\study\WebApiCore\WebApiCore\bin\Debug\netcoreapp2.1\WebApiCore.deps.json
+F:\mywork\study\WebApiCore\WebApiCore\bin\Debug\netcoreapp2.1\WebApiCore.runtimeconfig.json
+F:\mywork\study\WebApiCore\WebApiCore\bin\Debug\netcoreapp2.1\WebApiCore.runtimeconfig.dev.json
+F:\mywork\study\WebApiCore\WebApiCore\bin\Debug\netcoreapp2.1\WebApiCore.dll
+F:\mywork\study\WebApiCore\WebApiCore\obj\Debug\netcoreapp2.1\WebApiCore.csproj.CoreCompileInputs.cache
+F:\mywork\study\WebApiCore\WebApiCore\obj\Debug\netcoreapp2.1\WebApiCore.AssemblyInfoInputs.cache
+F:\mywork\study\WebApiCore\WebApiCore\obj\Debug\netcoreapp2.1\WebApiCore.AssemblyInfo.cs
+F:\mywork\study\WebApiCore\WebApiCore\bin\Debug\netcoreapp2.1\WebApiCore.pdb
+F:\mywork\study\WebApiCore\WebApiCore\obj\Debug\netcoreapp2.1\WebApiCore.dll
+F:\mywork\study\WebApiCore\WebApiCore\obj\Debug\netcoreapp2.1\WebApiCore.pdb
+F:\mywork\study\WebApiCore\WebApiCore\obj\Debug\netcoreapp2.1\WebApiCore.csprojAssemblyReference.cache
+F:\mywork\study\WebApiCore\WebApiCore\bin\Debug\netcoreapp2.1\Dnc.Api.Throttle.dll
+F:\mywork\study\WebApiCore\WebApiCore\bin\Debug\netcoreapp2.1\Dnc.Api.Throttle.pdb
+F:\mywork\study\WebApiCore\WebApiCore\obj\Debug\netcoreapp2.1\WebApiCore.csproj.CopyComplete
