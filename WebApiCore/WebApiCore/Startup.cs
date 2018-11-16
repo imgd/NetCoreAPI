@@ -14,9 +14,15 @@ namespace WebApiCore
 {
     public class Startup
     {
-        public Startup(IConfiguration configuration)
+        public Startup(IConfiguration configuration, IHostingEnvironment env)
         {
             Configuration = configuration;
+            //var builder = new ConfigurationBuilder()
+            // .SetBasePath(env.ContentRootPath)
+            // .AddJsonFile($"Configs/appsettings.json", optional: true, reloadOnChange: true)
+            // .AddJsonFile($"Configs/appsettings.{env.EnvironmentName}.json", optional: true)
+            // .AddJsonFile($"Configs/users.json", optional: true, reloadOnChange: true);
+            //Configuration = builder.Build();
         }
 
         public IConfiguration Configuration { get; }
@@ -89,15 +95,15 @@ namespace WebApiCore
             });
             #endregion
 
-            services.AddResponseCompression();            
-
-            ConnectionMultiplexer redis =
-                ConnectionMultiplexer.Connect("192.168.1.199:26379,password=123456,connectTimeout=5000,allowAdmin=false,defaultDatabase=2");
+            services.AddResponseCompression();
 
             services.AddSingleton<ICacheKeyGenerator, DefaultCacheKeyGenerator>();
             services.AddSingleton<IApiOutputCache, StackExchangeRedisOutputCacheProvider>((sprovder) =>
             {
-                return new StackExchangeRedisOutputCacheProvider(redis.GetDatabase());
+                return new StackExchangeRedisOutputCacheProvider(
+                    ConnectionMultiplexer
+                    .Connect("192.168.1.199:26379,password=123456,connectTimeout=5000,allowAdmin=false,defaultDatabase=2")
+                    .GetDatabase());
             });
             //services.AddMvc();
 
@@ -116,7 +122,7 @@ namespace WebApiCore
                 app.UseDeveloperExceptionPage();
             }
 
-            
+
 
             //启用http输出缓存
             //app.UseResponseCaching();

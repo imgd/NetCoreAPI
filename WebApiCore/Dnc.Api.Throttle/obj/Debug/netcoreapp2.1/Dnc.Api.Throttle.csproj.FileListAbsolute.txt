@@ -16,3 +16,12 @@ F:\mywork\study\WebApiCore\Dnc.Api.Throttle\obj\Debug\netcoreapp2.1\Dnc.Api.Thro
 F:\mywork\study\WebApiCore\Dnc.Api.Throttle\obj\Debug\netcoreapp2.1\Dnc.Api.Throttle.AssemblyInfo.cs
 F:\mywork\study\WebApiCore\Dnc.Api.Throttle\obj\Debug\netcoreapp2.1\Dnc.Api.Throttle.dll
 F:\mywork\study\WebApiCore\Dnc.Api.Throttle\obj\Debug\netcoreapp2.1\Dnc.Api.Throttle.pdb
+F:\github\NetCoreDemo\NetCoreAPI\WebApiCore\Dnc.Api.Throttle\bin\Debug\netcoreapp2.1\Dnc.Api.Throttle.deps.json
+F:\github\NetCoreDemo\NetCoreAPI\WebApiCore\Dnc.Api.Throttle\bin\Debug\netcoreapp2.1\Dnc.Api.Throttle.dll
+F:\github\NetCoreDemo\NetCoreAPI\WebApiCore\Dnc.Api.Throttle\bin\Debug\netcoreapp2.1\Dnc.Api.Throttle.pdb
+F:\github\NetCoreDemo\NetCoreAPI\WebApiCore\Dnc.Api.Throttle\obj\Debug\netcoreapp2.1\Dnc.Api.Throttle.csprojAssemblyReference.cache
+F:\github\NetCoreDemo\NetCoreAPI\WebApiCore\Dnc.Api.Throttle\obj\Debug\netcoreapp2.1\Dnc.Api.Throttle.csproj.CoreCompileInputs.cache
+F:\github\NetCoreDemo\NetCoreAPI\WebApiCore\Dnc.Api.Throttle\obj\Debug\netcoreapp2.1\Dnc.Api.Throttle.AssemblyInfoInputs.cache
+F:\github\NetCoreDemo\NetCoreAPI\WebApiCore\Dnc.Api.Throttle\obj\Debug\netcoreapp2.1\Dnc.Api.Throttle.AssemblyInfo.cs
+F:\github\NetCoreDemo\NetCoreAPI\WebApiCore\Dnc.Api.Throttle\obj\Debug\netcoreapp2.1\Dnc.Api.Throttle.dll
+F:\github\NetCoreDemo\NetCoreAPI\WebApiCore\Dnc.Api.Throttle\obj\Debug\netcoreapp2.1\Dnc.Api.Throttle.pdb

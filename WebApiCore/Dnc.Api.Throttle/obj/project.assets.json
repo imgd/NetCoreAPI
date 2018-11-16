@@ -7901,11 +7901,11 @@
   "project": {
     "version": "1.0.1",
     "restore": {
-      "projectUniqueName": "F:\\mywork\\study\\WebApiCore\\Dnc.Api.Throttle\\Dnc.Api.Throttle.csproj",
+      "projectUniqueName": "F:\\github\\NetCoreDemo\\NetCoreAPI\\WebApiCore\\Dnc.Api.Throttle\\Dnc.Api.Throttle.csproj",
       "projectName": "Dnc.Api.Throttle",
-      "projectPath": "F:\\mywork\\study\\WebApiCore\\Dnc.Api.Throttle\\Dnc.Api.Throttle.csproj",
+      "projectPath": "F:\\github\\NetCoreDemo\\NetCoreAPI\\WebApiCore\\Dnc.Api.Throttle\\Dnc.Api.Throttle.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "F:\\mywork\\study\\WebApiCore\\Dnc.Api.Throttle\\obj\\",
+      "outputPath": "F:\\github\\NetCoreDemo\\NetCoreAPI\\WebApiCore\\Dnc.Api.Throttle\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

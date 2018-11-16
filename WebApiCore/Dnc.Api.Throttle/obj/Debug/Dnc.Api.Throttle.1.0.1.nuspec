@@ -20,6 +20,6 @@
     </dependencies>
   </metadata>
   <files>
-    <file src="F:\mywork\study\WebApiCore\Dnc.Api.Throttle\bin\Debug\netcoreapp2.1\Dnc.Api.Throttle.dll" target="lib\netcoreapp2.1\Dnc.Api.Throttle.dll" />
+    <file src="F:\github\NetCoreDemo\NetCoreAPI\WebApiCore\Dnc.Api.Throttle\bin\Debug\netcoreapp2.1\Dnc.Api.Throttle.dll" target="lib\netcoreapp2.1\Dnc.Api.Throttle.dll" />
   </files>
 </package>

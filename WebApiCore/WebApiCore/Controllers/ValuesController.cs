@@ -7,18 +7,21 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace WebApiCore.Controllers
 {
-    [Route("api/[controller]")]   
+    [Route("api/[controller]")]
     public class ValuesController : Controller
     {
         // GET api/values
         [HttpGet]
         [RateValve(Policy = Policy.RequestPath, Limit = 5, Duration = 10)]
         public IEnumerable<string> Get()
-        {
-            return new string[] { "value1", "value2" };
+        {            
+            return new string[] {
+                ConfigHelper.appsettings.GetAppSettingValue("AppSecret"),
+                ConfigHelper.users.GetSectionValue("gd:name")
+            };
         }
 
-       
+
         // GET api/values/5
         [HttpGet("{id}")]
         public string Get(int id)
