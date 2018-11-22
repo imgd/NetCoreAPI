@@ -20,7 +20,7 @@ using System.Threading.Tasks;
 
 //5.Invoke方法不能有重载。
 
- 
+
 
 //关于构造函数：
 
@@ -31,6 +31,10 @@ using System.Threading.Tasks;
 //3.构造函数可以有多个参数，参数会优先从给定的参数列表中找，其次会从依赖注入容器中获取，获取失败会尝试获取默认值，都失败会抛出异常。
 
 //4.构造函数可以有多个，届时会根据构造函数参数列表和给定的参数列表选择匹配度最高的一个。
+
+//        中间间所依赖的初始化数据可以在  ConfigureServices(IServiceCollection services) 依赖注入  services.AddTransient<Ioc>();
+//        也可以在添加中间件的时候初始化  app.UseMiddleware<IocMiddleware>(new Ioc());       
+//        
 /// </summary>
 namespace WebApiCore
 {
