@@ -8,13 +8,16 @@ using Microsoft.AspNetCore.Mvc;
 namespace WebApiCore.Controllers
 {
     [Route("api/[controller]")]
+    [OAuthController()]
     public class ValuesController : Controller
     {
         // GET api/values
         [HttpGet]
         [RateValve(Policy = Policy.RequestPath, Limit = 5, Duration = 10)]
+        //[OAuthFilter()]
         public IEnumerable<string> Get()
-        {            
+        {
+            //throw new Exception("心情不爽！");
             return new string[] {
                 ConfigHelper.appsettings.GetAppSettingValue("AppSecret"),
                 ConfigHelper.users.GetSectionValue("gd:name")

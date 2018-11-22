@@ -30,6 +30,10 @@ namespace WebApiCore
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddTransient<Ioc>();
+
+
+
             #region 限流配置
             services.AddApiThrottle(options =>
             {
@@ -110,7 +114,9 @@ namespace WebApiCore
             services.AddMvc(opts =>
             {
                 //这里添加ApiThrottleActionFilter拦截器
-                opts.Filters.Add(typeof(ApiThrottleActionFilter));
+                //opts.Filters.Add(typeof(ApiThrottleActionFilter));
+                //opts.Filters.Add(typeof(OAuthFilterAttribute));
+                opts.Filters.Add(typeof(ExceptionFilter));
             }).SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
         }
 
@@ -127,11 +133,15 @@ namespace WebApiCore
             //启用http输出缓存
             //app.UseResponseCaching();
             //启用消息压缩
-            app.UseResponseCompression();
+            //app.UseResponseCompression();
             //输出缓存
-            app.UseCacheOutput();
+            //app.UseCacheOutput();
             //
-            app.UseApiThrottle();
+            //app.UseApiThrottle();
+
+            //app.UseMiddleware<OAouthMiddleware>();
+            //app.UseOAouth();
+            app.UseMiddleware<IocMiddleware>();
 
             app.UseMvc();
         }
